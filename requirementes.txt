@@ -4,9 +4,5 @@ numpy==1.21.4
 streamlit==1.14.0
 pandas
 plotly
-#openpyxl==3.0.9
-#xlsxwriter
 google-cloud-firestore
-#click==7.1.2
-#protobuf~=3.19.0
 scipy
