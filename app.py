@@ -47,7 +47,7 @@ db = firestore.Client(credentials=creds, project='blog-portfolio')
 
 botao = st.button('teste db')
 if botao:
-    dados = 'cu'
+    dados = {'cu': 'bilola'}
     doc_ref = db.collection('bobinas').document('bobinas')
     try:
         doc_ref.set(dados)
