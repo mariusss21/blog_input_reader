@@ -52,8 +52,8 @@ if botao:
     try:
         doc_ref.set(dados)
         st.success('teste ok')
-    except:
-        st.error('falha teste')
+    except Exception as e:
+        st.error(e)
 
 
 
