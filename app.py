@@ -38,8 +38,9 @@ div.streamlit-expanderHeader{
 </style>""", unsafe_allow_html=True)
 
 # database config
-key_dict = json.loads(st.secrets['firebase_info'])
-creds = service_account.Credentials.from_service_account_info(key_dict)
+# key_dict = json.loads(st.secrets['firebase_info'])
+# creds = service_account.Credentials.from_service_account_info(key_dict)
+creds = service_account.Credentials.from_service_account_info(st.secrets["firebase_info"])
 db = firestore.Client(credentials=creds, project='blog-portfolio')
 
 # teste banco de dados
