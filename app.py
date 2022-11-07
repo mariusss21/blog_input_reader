@@ -8,7 +8,7 @@ from google.oauth2 import service_account
 
 # page config
 st.set_page_config(
-     page_title="Inventário Logístico",
+     page_title="Blog",
 )
 
 m = st.markdown("""
