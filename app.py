@@ -41,7 +41,7 @@ div.streamlit-expanderHeader{
 # key_dict = json.loads(st.secrets['firebase_info'])
 # creds = service_account.Credentials.from_service_account_info(key_dict)
 creds = service_account.Credentials.from_service_account_info(st.secrets["firebase_info"])
-db = firestore.Client(credentials=creds, project='portfolio-blog')
+db = firestore.Client(credentials=creds, project='portfolio-blog-11c56')
 
 # teste banco de dados
 
